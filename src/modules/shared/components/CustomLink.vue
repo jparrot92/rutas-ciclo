@@ -7,7 +7,7 @@
 
     <router-link
         v-else
-        :to="link.to"
+        :to="route"
         v-slot="{ isActive }"
     >
         <a :class="isActive ? 'is-active' : 'normal-link'">
